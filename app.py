@@ -128,7 +128,7 @@ def generate_social_card(avatar_file):
         logging.ERROR('Could not save twitter banner with error: %s', e)
 
 def homepage(request):
-    return PlainTextResponse('Hello, world!')
+    return PlainTextResponse('Hello, world Olli!')
 
 def _setup(request):
     random.seed(str(request.url))
